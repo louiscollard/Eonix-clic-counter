@@ -3,12 +3,12 @@ import { connect } from "react-redux";
 import { compose } from "redux";
 import { createStructuredSelector } from "reselect";
 
-import Home from "../../views/Home";
-import { makeSelectHomeContainerCounter } from "./selector";
-import { incrementAction, decrementAction } from "./action";
+import Home from "../../views/Home/Home";
+import { makeSelectHomeContainerCounter } from "../../redux/Home/selector";
+import { incrementAction, decrementAction } from "../../redux/Home/action";
 import { useInjectReducer } from "../../utils/injectReducer";
 
-import reducer from "./reducer";
+import reducer from "../../redux/Home/reducer";
 
 const key = "homeContainer";
 

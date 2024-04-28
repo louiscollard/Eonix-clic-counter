@@ -1,0 +1,42 @@
+@import "../../styles/global.css";
+
+.container {
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100px;
+	width: 200px;
+	border-radius: 20px;
+}
+
+.counter {
+	color: black;
+	font-size: 30px;
+}
+
+.button {
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #4caf50;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.button:hover {
+	background-color: #45a049;
+}
+
+.decrement-button {
+	background-color: #f44336;
+}
+
+.decrement-button:hover {
+	background-color: #d32f2f;
+}
